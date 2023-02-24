@@ -23,7 +23,8 @@ public class Question_3 {
                 "WHERE store_id = 1\n" +
                 "GROUP BY c.name\n" +
                 "HAVING COUNT(c.category_id)>150\n" +
-                "ORDER BY COUNT(c.category_id) DESC";
+                "ORDER BY COUNT(c.category_id) DESC\n" +
+                        "LIMIT 5";
 
         ResultSet resultSet = statement.executeQuery(query);
         int count = 1;

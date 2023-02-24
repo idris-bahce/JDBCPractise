@@ -11,13 +11,12 @@ public class Question_5 {
 
         Connection connection = DriverManager.getConnection(dbURL,username,password);
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
-        String query = "" +
-                "SELECT store.store_id,COUNT(amount) FROM store\n" +
-                "INNER JOIN inventory ON store.store_id = inventory.store_id\n" +
-                "INNER JOIN rental ON inventory.inventory_id = rental.inventory_id\n" +
-                "INNER JOIN payment ON rental.rental_id = payment.rental_id\n" +
-                "WHERE store.store_id = 2\n" +
-                "GROUP BY store.store_id";
+        String query = "SELECT SUM(amount)\n" +
+                "FROM rental r\n" +
+                "JOIN inventory i ON i.inventory_id = r.inventory_id\n" +
+                "JOIN payment p ON p.rental_id = r.rental_id\n" +
+                "WHERE return_date IS NULL\n" +
+                "AND store_id = 2";
         ResultSet resultSet = statement.executeQuery(query);
         resultSet.next();
         System.out.println(resultSet.getString("count"));
