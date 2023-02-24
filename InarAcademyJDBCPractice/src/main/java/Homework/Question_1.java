@@ -21,7 +21,7 @@ public class Question_1 {
                 "INNER JOIN film_actor ON film_actor.film_id = film.film_id\n" +
                 "INNER JOIN actor ON actor.actor_id = film_actor.actor_id\n" +
                 "WHERE actor.first_name = 'Ed' AND actor.last_name = 'Chase'\n" +
-                "ORDER BY c.first_name DESC\n" +
+                "ORDER BY rental_date DESC\n" +
                 "LIMIT 3";
         ResultSet resultSet = statement.executeQuery(query);
 
