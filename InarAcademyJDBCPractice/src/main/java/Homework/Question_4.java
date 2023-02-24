@@ -16,14 +16,14 @@ public class Question_4 {
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
 
         String query = "" +
-                "SELECT country, COUNT(amount) FROM country\n" +
+                "SELECT country, SUM(amount) FROM country\n" +
                 "INNER JOIN city ON city.country_id = country.country_id\n" +
                 "INNER JOIN address ON address.city_id = city.city_id\n" +
                 "INNER JOIN customer ON customer.address_id = address.address_id\n" +
                 "INNER JOIN payment ON payment.customer_id = customer.customer_id\n" +
                 "GROUP BY country\n" +
-                "HAVING COUNT(amount)>800\n" +
-                "ORDER BY COUNT(amount) DESC";
+                "HAVING SUM(amount)>800\n" +
+                "ORDER BY SUM(amount) DESC";
         ResultSet resultSet = statement.executeQuery(query);
         int count = 1;
         while (resultSet.next()){
