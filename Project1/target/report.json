@@ -1,0 +1,730 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-23T18:35:38.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 242637200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?",
+        "after": [
+          {
+            "result": {
+              "duration": 2352200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 319187100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "customer_id must match with \"148\" in first row",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"148\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.DBStepDef.customer_id_must_match_with_in_first_row(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.241Z",
+        "before": [
+          {
+            "result": {
+              "duration": 42008900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24401300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"148\", \"Eleanor Hunt\", \"Saint-Denis\",\"Runion\",\"211.55\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"148\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Eleanor Hunt\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Saint-Denis\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Runion\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"211.55\"",
+                  "offset": 72
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38052400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 111800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21374400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"526\", \"Karl Seal\", \"Cape Coral\",\"United States\",\"208.58\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"526\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Karl Seal\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Cape Coral\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"208.58\"",
+                  "offset": 75
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.384Z",
+        "before": [
+          {
+            "result": {
+              "duration": 40415500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24466000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"178\", \"Marion Snyder\", \"Santa Brbara dOeste\",\"Brazil\",\"194.61\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"178\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Marion Snyder\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Santa Brbara dOeste\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Brazil\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"194.61\"",
+                  "offset": 81
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36631900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1023600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20765800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"137\", \"Rhonda Kennedy\", \"Apeldoorn\",\"Netherlands\",\"191.62\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"137\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Rhonda Kennedy\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Apeldoorn\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Netherlands\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"191.62\"",
+                  "offset": 77
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.520Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36597900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1065400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26533900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"144\", \"Clara Shaw\", \"Molodetno\",\"Belarus\",\"189.60\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"144\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Clara Shaw\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Molodetno\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Belarus\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"189.60\"",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.588Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38423600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1061900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17641000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"459\", \"Tommy Collazo\", \"Qomsheh\",\"Iran\",\"183.63\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"459\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Tommy Collazo\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Qomsheh\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Iran\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"183.63\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36674900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1051400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18640100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"181\", \"Ana Bradley\", \"Memphis\",\"United States\",\"167.67\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"181\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Ana Bradley\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Memphis\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"167.67\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36708900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21363100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"410\", \"Curtis Irby\", \"Richmond Hill\",\"Canada\",\"167.62\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"410\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Curtis Irby\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Richmond Hill\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Canada\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"167.62\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.774Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38771000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1125600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21576800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"236\", \"Marcia Dean\", \"Tanza\",\"Philippines\",\"166.61\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"236\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Marcia Dean\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Tanza\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Philippines\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"166.61\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T18:35:39.840Z",
+        "before": [
+          {
+            "result": {
+              "duration": 37957300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Find out the customer id, name, surname, the city and the country of the customers who make the most purchases and how much money they have spent ?",
+        "description": "",
+        "id": "homework;find-out-the-customer-id--name--surname--the-city-and-the-country-of-the-customers-who-make-the-most-purchases-and-how-much-money-they-have-spent-?;;11",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24500600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify given information: \"403\", \"Mike Way\", \"Valparai\",\"India\",\"162.67\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"403\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Mike Way\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Valparai\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"162.67\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Homework",
+    "description": "",
+    "id": "homework",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homework.feature",
+    "tags": []
+  }
+]
