@@ -1,0 +1,560 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-23T19:17:36.575Z",
+        "before": [
+          {
+            "result": {
+              "duration": 203028500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19142500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Affair Prejudice\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Affair Prejudice\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:36.849Z",
+        "before": [
+          {
+            "result": {
+              "duration": 34067000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8393100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Alabama Devil\" and \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alabama Devil\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:36.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38036600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6625000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Aladdin Calendar\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aladdin Calendar\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:36.946Z",
+        "before": [
+          {
+            "result": {
+              "duration": 34559600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1005800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5835400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Alamo Videotape\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alamo Videotape\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:36.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36099800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1010400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4969300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Amadeus Holy\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amadeus Holy\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:37.036Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33618600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1034900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5618000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Amelie Hellfighters\" and \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amelie Hellfighters\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:37.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 49164800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1009700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5635600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Amistad Midsummer\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amistad Midsummer\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:37.143Z",
+        "before": [
+          {
+            "result": {
+              "duration": 40152700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 1015400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6693500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Anaconda Confessions\" and \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anaconda Confessions\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:37.195Z",
+        "before": [
+          {
+            "result": {
+              "duration": 42023800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1006200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5847300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Analyze Hoosiers\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Analyze Hoosiers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-23T19:17:37.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 41798200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+        "description": "",
+        "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.;;11",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5167700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values: \"Angels Life\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Angels Life\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_values_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "List all the movies with the most copies in store 1 in ordered by film id.",
+    "description": "",
+    "id": "list-all-the-movies-with-the-most-copies-in-store-1-in-ordered-by-film-id.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homework.feature",
+    "tags": []
+  }
+]

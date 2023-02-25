@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-23T04:00:08.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 277281800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.createDBConnection()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "How many movies have 3 copies in store 2?",
+        "description": "",
+        "id": "how-many-movies-have-3-copies-in-store-2?;how-many-movies-have-3-copies-in-store-2?",
+        "after": [
+          {
+            "result": {
+              "duration": 1481400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40595700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify that there are \"257\" movies in store two which have three copies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"257\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefs.DBStepDefs.verify_that_there_are_movies_in_store_two_which_have_three_copies(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "How many movies have 3 copies in store 2?",
+    "description": "",
+    "id": "how-many-movies-have-3-copies-in-store-2?",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homework.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-25T06:42:46.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 274752700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Find the exact address, the city and the country of store 2.",
+        "description": "",
+        "id": "find-the-exact-address--the-city-and-the-country-of-store-2.;find-the-exact-address--the-city-and-the-country-of-store-2.",
+        "after": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42617000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify the full address : \"28 MySQL Boulevard Woodridge QLD/Australia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"28 MySQL Boulevard Woodridge QLD/Australia\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_the_full_address(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Find the exact address, the city and the country of store 2.",
+    "description": "",
+    "id": "find-the-exact-address--the-city-and-the-country-of-store-2.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homework.feature",
+    "tags": []
+  }
+]
