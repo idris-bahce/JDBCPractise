@@ -1,0 +1,482 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-25T06:40:39.766Z",
+        "before": [
+          {
+            "result": {
+              "duration": 291717300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65467400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Jon Stephens\", \"April\" , \"14479.10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jon Stephens\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"April\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"14479.10\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 49236000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1023900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30554600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Mike Hillyer\", \"February\" , \"4160.84\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mike Hillyer\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"February\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"4160.84\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.283Z",
+        "before": [
+          {
+            "result": {
+              "duration": 49580500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1007600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16543700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Jon Stephens\", \"March\" , \"12109.73\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jon Stephens\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"12109.73\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 43591300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22121500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Mike Hillyer\", \"March\" , \"11776.83\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mike Hillyer\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"11776.83\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.431Z",
+        "before": [
+          {
+            "result": {
+              "duration": 42353100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1027200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25212200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Jon Stephens\", \"May\" , \"280.09\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jon Stephens\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"280.09\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.506Z",
+        "before": [
+          {
+            "result": {
+              "duration": 43630300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17623500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Mike Hillyer\", \"April\" , \"14080.36\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mike Hillyer\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"April\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"14080.36\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.576Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45217400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1059500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23821900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Mike Hillyer\", \"May\" , \"234.09\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mike Hillyer\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"234.09\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T06:40:40.654Z",
+        "before": [
+          {
+            "result": {
+              "duration": 170297400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setupDBConnection()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Find the total sales of each staff for each month.",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month.;find-the-total-sales-of-each-staff-for-each-month.;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16561100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "verify given information: \"Jon Stephens\", \"February\" , \"4191.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jon Stephens\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"February\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"4191.00\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefs.DBStepDef.verify_given_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Find the total sales of each staff for each month.",
+    "description": "",
+    "id": "find-the-total-sales-of-each-staff-for-each-month.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homework.feature",
+    "tags": []
+  }
+]
